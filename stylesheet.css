@@ -1,0 +1,31 @@
+
+* {
+  min-width: 300px;
+  max-width: 1500px;
+  overfow: scroll;
+  }
+  
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: Georgia;
+  color: ForestGreen;
+  margin: 10px 20px;
+}
+
+.navigation {
+  font-family: Cairo;
+  align: right;
+}
+
+.photos {
+   float: left;
+   padding: 10px 10px;
+}
+
+.contact {
+	border-width: 3px;
+	padding: 12px;
+}

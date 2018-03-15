@@ -1,31 +1,42 @@
+body {
+	font-family: Lato;
+}
 
-* {
-  min-width: 300px;
-  max-width: 1500px;
-  overfow: scroll;
-  }
-  
+h1, h2 {
+  font-family: Cairo;
+}
+
 h1 {
   text-align: center;
 }
 
-p {
-  font-family: Georgia;
-  color: ForestGreen;
-  margin: 10px 20px;
+a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .navigation {
   font-family: Cairo;
-  align: right;
+  display: flex;
+  flex-direction: column;
 }
 
 .photos {
-   float: left;
-   padding: 10px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   box-shadow: 25px 25px black;
+   border: 2px solid black;
+   border-radius: 25px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   margin: 10px;
+   padding: 10px;
 }
 
 .contact {
-	border-width: 3px;
+    text-align: center;
+	border: 2px solid black;
 	padding: 12px;
 }
